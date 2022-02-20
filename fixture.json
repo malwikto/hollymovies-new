@@ -1,0 +1,78 @@
+[
+  {
+    "model": "viewer.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Action"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Godfather",
+      "genre": 3,
+      "rating": 9,
+      "released": "1972-12-31",
+      "description": "Dobry fim,polecam",
+      "created": "2022-01-23T10:21:02.965Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Forrest Gump",
+      "genre": 4,
+      "rating": 3,
+      "released": "1994-01-04",
+      "description": "Film o ziomku który biegał.",
+      "created": "2022-01-23T10:27:37.140Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Blade Runner",
+      "genre": 3,
+      "rating": 8,
+      "released": "1985-06-25",
+      "description": "Koleś goni roboty.",
+      "created": "2022-01-23T10:38:23.083Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Shawshank Redemption",
+      "genre": 3,
+      "rating": 8,
+      "released": "1994-09-10",
+      "description": "Ucieczka z więzienia",
+      "created": "2022-01-23T10:40:34.328Z"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="card-header">
+    List of available genres:
+  </div>
+  <table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+        {% for genre in object_list %}
+          <tr>
+            <th scope="row">{{genre.id}}</th>
+            <td>{{genre.name}} <a class="btn btn-success btn-sm float-end" href="{% url "update_genre" genre.id %}">Update</a> </td>
+{#          <td><a class="btn btn-danger" href="{% url 'delete_movie' movie.id %}">Delete movie</a></td>#}
+          </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

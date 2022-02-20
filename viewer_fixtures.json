@@ -1,0 +1,262 @@
+[
+  {
+    "model": "viewer.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Action"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Crime"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Biography"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 1,
+    "fields": {
+      "title": "The Godfather",
+      "genre": 7,
+      "rating": 9,
+      "released": "1972-12-01",
+      "description": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+      "created": "2022-01-23T10:20:59.648Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Forrest Gump",
+      "genre": 6,
+      "rating": 3,
+      "released": "1994-11-01",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "created": "2022-01-23T10:26:46.753Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Blade Runner",
+      "genre": 3,
+      "rating": 8,
+      "released": "1982-06-01",
+      "description": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",
+      "created": "2022-01-23T10:38:22.713Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Showshang Redemption",
+      "genre": 6,
+      "rating": 10,
+      "released": "1994-09-01",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "created": "2022-01-23T10:40:24.463Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Don't look up",
+      "genre": 4,
+      "rating": 6,
+      "released": "2021-12-01",
+      "description": "Two low-level astronomers must go on a giant media tour to warn mankind of an approaching comet that will destroy planet Earth.",
+      "created": "2022-02-19T16:46:51.242Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Spider-Man: No Way Home",
+      "genre": 3,
+      "rating": 9,
+      "released": "2021-12-01",
+      "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+      "created": "2022-02-19T16:51:32.491Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Nightmare Alley",
+      "genre": 5,
+      "rating": 7,
+      "released": "2021-12-01",
+      "description": "An ambitious carny with a talent for manipulating people with a few well-chosen words hooks up with a female psychiatrist who is even more dangerous than he is.",
+      "created": "2022-02-19T16:55:06.888Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 10,
+    "fields": {
+      "title": "The Power of the Dog",
+      "genre": 6,
+      "rating": 7,
+      "released": "2021-09-01",
+      "description": "Charismatic rancher Phil Burbank inspires fear and awe in those around him. When his brother brings home a new wife and her son, Phil torments them until he finds himself exposed to the possibility of love.",
+      "created": "2022-02-19T16:56:17.029Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 11,
+    "fields": {
+      "title": "The Godfather: Part II",
+      "genre": 7,
+      "rating": 9,
+      "released": "1974-12-01",
+      "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+      "created": "2022-02-19T16:59:47.547Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 12,
+    "fields": {
+      "title": "The Dark Knight",
+      "genre": 3,
+      "rating": 9,
+      "released": "2008-07-01",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "created": "2022-02-19T17:00:49.021Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 13,
+    "fields": {
+      "title": "12 Angry Men",
+      "genre": 7,
+      "rating": 9,
+      "released": "1957-04-01",
+      "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+      "created": "2022-02-19T17:01:29.031Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Schindler's List",
+      "genre": 8,
+      "rating": 9,
+      "released": "1993-11-01",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "created": "2022-02-19T17:02:38.214Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 15,
+    "fields": {
+      "title": "Pulp Fiction",
+      "genre": 7,
+      "rating": 9,
+      "released": "1994-05-01",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "created": "2022-02-19T17:03:22.505Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Inception",
+      "genre": 3,
+      "rating": 9,
+      "released": "2010-07-01",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+      "created": "2022-02-19T17:04:31.108Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Network",
+      "genre": 6,
+      "rating": 8,
+      "released": "1976-11-01",
+      "description": "A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit, but finds that his message may be difficult to control.",
+      "created": "2022-02-19T17:08:01.896Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Mad Max: Fury Road",
+      "genre": 3,
+      "rating": 8,
+      "released": "2015-05-01",
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "created": "2022-02-19T17:08:37.954Z"
+    }
+  },
+  {
+    "model": "viewer.movie",
+    "pk": 19,
+    "fields": {
+      "title": "Dune",
+      "genre": 3,
+      "rating": 8,
+      "released": "2021-09-01",
+      "description": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+      "created": "2022-02-19T17:11:08.625Z"
+    }
+  }
+]

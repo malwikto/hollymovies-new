@@ -13,6 +13,8 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+from decouple import config
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -21,7 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = "django-insecure-8jeg4k(8x11dxlek_lx&3d&j3!8vxk4_32+mn@4om2z+b#(kdy"
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
+
+# SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
+
+SECRET_KEY = config("DJANGO_SECRET_KEY")
+
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
